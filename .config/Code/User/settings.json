@@ -1,0 +1,10 @@
+{
+    // vscode
+    "editor.rulers": [
+        80
+    ],
+    "notebook.lineNumbers": "on",
+
+    // extensions
+    "redhat.telemetry.enabled": false
+}
