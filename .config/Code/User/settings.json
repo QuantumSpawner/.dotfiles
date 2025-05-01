@@ -3,8 +3,10 @@
     "editor.rulers": [
         80
     ],
+    "explorer.confirmDragAndDrop": false,
     "notebook.lineNumbers": "on",
 
     // extensions
+    "python.createEnvironment.trigger": "off",
     "redhat.telemetry.enabled": false
 }
