@@ -1,12 +1,40 @@
 {
-    // vscode
-    "editor.rulers": [
-        80
-    ],
-    "explorer.confirmDragAndDrop": false,
-    "notebook.lineNumbers": "on",
+  // vscode
+  "editor.rulers": [80],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "notebook.lineNumbers": "on",
 
-    // extensions
-    "python.createEnvironment.trigger": "off",
-    "redhat.telemetry.enabled": false
+  // languages
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[javascript]": {
+    "editor.rulers": [100],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultformatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultformatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "eeyore.yapf"
+  },
+  "[typescript]": {
+    "editor.rulers": [100],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.rulers": [100],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // extensions
+  "python.createEnvironment.trigger": "off",
+  "redhat.telemetry.enabled": false
 }
