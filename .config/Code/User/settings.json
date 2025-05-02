@@ -36,5 +36,7 @@
 
   // extensions
   "python.createEnvironment.trigger": "off",
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "vim.useSystemClipboard": true,
+  "vim.vimrc.enable": true
 }
