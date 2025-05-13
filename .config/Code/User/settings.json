@@ -4,6 +4,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "notebook.lineNumbers": "on",
+  "workbench.startupEditor": "none",
 
   // languages
   "[c]": {
@@ -25,6 +26,9 @@
   "[python]": {
     "editor.defaultFormatter": "eeyore.yapf"
   },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
   "[typescript]": {
     "editor.rulers": [100],
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -35,8 +39,18 @@
   },
 
   // extensions
+  "ansible.lightspeed.enabled": false,
+  "ansible.lightspeed.suggestions.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true
+  },
   "python.createEnvironment.trigger": "off",
   "redhat.telemetry.enabled": false,
+  "remote.SSH.remotePlatform": {
+    "*": "linux"
+  },
   "vim.useSystemClipboard": true,
   "vim.vimrc.enable": true
 }
