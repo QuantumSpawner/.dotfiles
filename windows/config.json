@@ -1,0 +1,22 @@
+[
+    {
+        "src": ".config/Code/User/settings.json",
+        "dst": "AppData/Roaming/Code/User/settings.json"
+    },
+    {
+        "src": ".ssh/config",
+        "dst": ".ssh/config"
+    },
+    {
+        "src": ".gitconfig",
+        "dst": ".gitconfig"
+    },
+    {
+        "src": ".wslconfig",
+        "dst": ".wslconfig"
+    },
+    {
+        "src": ".vimrc",
+        "dst": ".vimrc"
+    }
+]
