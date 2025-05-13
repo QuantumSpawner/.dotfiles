@@ -1,0 +1,8 @@
+# reference: [Advanced settings configuration in WSL](https://learn.microsoft.com/en-us/windows/wsl/wsl-config)
+
+[wsl2]
+memory=8GB
+swap=4GB
+
+[experimental]
+sparseVhd=true
