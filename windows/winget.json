@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "Sources": [
+    {
+      "Packages": [
+        // system
+        {
+          "PackageIdentifier": "Tailscale.Tailscale"
+        },
+        {
+          "PackageIdentifier": "PrimateLabs.Geekbench.6"
+        },
+        // documentation
+        {
+          "PackageIdentifier": "Mozilla.Firefox"
+        },
+        {
+          "PackageIdentifier": "Google.Chrome.EXE"
+        },
+        {
+          "PackageIdentifier": "Discord.Discord"
+        },
+        // development
+        {
+          "PackageIdentifier": "Microsoft.VisualStudioCode"
+        },
+        {
+          "PackageIdentifier": "JGraph.Draw"
+        },
+        {
+          "PackageIdentifier": "Obsidian.Obsidian"
+        },
+        {
+          "PackageIdentifier": "DigitalScholar.Zotero"
+        },
+        // tools
+        {
+          "PackageIdentifier": "Git.Git"
+        },
+        {
+          "PackageIdentifier": "7zip.7zip"
+        },
+        {
+          "PackageIdentifier": "dorssel.usbipd-win"
+        },
+        {
+          "PackageIdentifier": "RaspberryPiFoundation.RaspberryPiImager"
+        },
+				{
+					"PackageIdentifier" : "garethgeorge.Backrest"
+				},
+        {
+          "PackageIdentifier": "RustDesk.RustDesk"
+        },
+        // multimedia
+        {
+          "PackageIdentifier": "VideoLAN.VLC"
+        },
+        {
+          "PackageIdentifier": "OBSProject.OBSStudio"
+        },
+        {
+          "PackageIdentifier": "Valve.Steam"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.10.390"
+}
