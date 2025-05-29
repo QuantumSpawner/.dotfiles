@@ -5,3 +5,4 @@ source $VIMRUNTIME/defaults.vim
 set clipboard=unnamedplus
 set mouse=a
 set number
+set relativenumber

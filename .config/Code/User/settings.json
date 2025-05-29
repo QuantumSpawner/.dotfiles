@@ -1,6 +1,7 @@
 {
   // vscode
   "chat.editing.confirmEditRequestRemoval": false,
+  "editor.lineNumbers": "relative",
   "editor.rulers": [80],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
