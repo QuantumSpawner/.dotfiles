@@ -6,14 +6,24 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "notebook.lineNumbers": "on",
+  "update.showReleaseNotes": false,
   "workbench.startupEditor": "none",
 
   // languages
   "[c]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "xaver.clang-format"
   },
   "[cpp]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[dockercompose]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[javascript]": {
     "editor.rulers": [100],
@@ -29,7 +39,7 @@
     "editor.wordWrap": "bounded"
   },
   "[markdown]": {
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "bounded"
   },
   "[python]": {
     "editor.defaultFormatter": "eeyore.yapf"

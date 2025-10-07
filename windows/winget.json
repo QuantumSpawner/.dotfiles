@@ -44,6 +44,9 @@
           "PackageIdentifier": "dorssel.usbipd-win"
         },
         {
+          "PackageIdentifier": "Win32diskimager.win32diskimager"
+        },
+        {
           "PackageIdentifier": "RaspberryPiFoundation.RaspberryPiImager"
         },
 				{
