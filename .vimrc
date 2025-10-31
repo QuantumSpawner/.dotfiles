@@ -2,7 +2,16 @@
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
-set clipboard=unnamedplus
-set mouse=a
+" display
 set number
 set relativenumber
+
+" search
+set hlsearch
+set ignorecase
+set smartcase
+
+" system
+set clipboard=unnamedplus
+set mouse=a
+
