@@ -3,6 +3,7 @@
   "chat.editing.confirmEditRequestRemoval": false,
   "editor.lineNumbers": "relative",
   "editor.rulers": [80],
+  "editor.tabSize": 4,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "notebook.lineNumbers": "on",
@@ -11,23 +12,23 @@
 
   // languages
   "[c]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 2
   },
   "[cpp]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 2
   },
   "[dockercompose]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.tabSize": 2
   },
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[javascript]": {
-    "editor.rulers": [100],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [100]
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -48,12 +49,17 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "[typescript]": {
-    "editor.rulers": [100],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [100]
   },
   "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [100]
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
     "editor.rulers": [100],
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "files.insertFinalNewline": true
   },
 
   // extensions
