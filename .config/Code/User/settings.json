@@ -8,58 +8,63 @@
   "explorer.confirmDragAndDrop": false,
   "notebook.lineNumbers": "on",
   "update.showReleaseNotes": false,
+  "workbench.colorTheme": "Dark Modern",
   "workbench.startupEditor": "none",
 
   // languages
+  "[biblatex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+  },
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "[dockercompose]": {
     "editor.defaultFormatter": "redhat.vscode-yaml",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.rulers": [100]
+    "editor.rulers": [100],
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[latex]": {
-    "editor.wordWrap": "bounded"
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.wordWrap": "bounded",
   },
   "[markdown]": {
-    "editor.wordWrap": "bounded"
+    "editor.wordWrap": "bounded",
   },
   "[python]": {
-    "editor.defaultFormatter": "eeyore.yapf"
+    "editor.defaultFormatter": "eeyore.yapf",
   },
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.rulers": [100]
+    "editor.rulers": [100],
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.rulers": [100]
+    "editor.rulers": [100],
   },
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml",
     "editor.rulers": [100],
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
   },
 
   // extensions
@@ -67,12 +72,19 @@
   "ansible.lightspeed.suggestions.enabled": false,
   "github.copilot.enable": {
     "*": true,
+    "markdown": true,
     "plaintext": false,
-    "markdown": true
+    "scminput": false,
   },
   "jupyter.askForKernelRestart": false,
+  "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#ffffff",
+  "latex-workshop.formatting.latex": "tex-fmt",
   "python.createEnvironment.trigger": "off",
   "redhat.telemetry.enabled": false,
   "vim.useSystemClipboard": true,
-  "vim.vimrc.enable": true
+  "vim.vimrc.enable": true,
+  "xml.format.emptyElements": "collapse",
+  "xml.format.enforceQuoteStyle": "preferred",
+  "xml.format.spaceBeforeEmptyCloseTag": false,
+  "xml.preferences.quoteStyle": "double",
 }
