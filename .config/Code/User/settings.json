@@ -7,6 +7,8 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "notebook.lineNumbers": "on",
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "manual",
   "update.showReleaseNotes": false,
   "workbench.colorTheme": "Dark Modern",
   "workbench.startupEditor": "none",
@@ -76,7 +78,10 @@
     "plaintext": false,
     "scminput": false,
   },
+  "hediet.vscode-drawio.resizeImages": false,
   "jupyter.askForKernelRestart": false,
+  "latex-workshop.formatting.latex": "tex-fmt",
+  "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#ffffff",
   "latex-workshop.formatting.latex": "tex-fmt",
   "python.createEnvironment.trigger": "off",
@@ -86,5 +91,5 @@
   "xml.format.emptyElements": "collapse",
   "xml.format.enforceQuoteStyle": "preferred",
   "xml.format.spaceBeforeEmptyCloseTag": false,
-  "xml.preferences.quoteStyle": "double",
+  "xml.preferences.quoteStyle": "double"
 }
